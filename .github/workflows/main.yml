@@ -4,7 +4,7 @@ on:
   workflow_dispatch: {}
   schedule:
 #   Eg: Runs at 04:00 UTC every day.
-    - cron: '0 4 * * *'
+    - cron: '0 7 * * *'
   
 jobs:
   email:
